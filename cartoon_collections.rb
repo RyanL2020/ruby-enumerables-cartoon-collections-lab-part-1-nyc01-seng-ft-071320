@@ -4,5 +4,5 @@ end
 
 
 def list_dwarves(array)
-  array.each_with_index { |item, index| p Array(index + 1"#{item}") }
+  array.each_with_index(+=1) { |item, index| p Array("#{item}") }
 end
