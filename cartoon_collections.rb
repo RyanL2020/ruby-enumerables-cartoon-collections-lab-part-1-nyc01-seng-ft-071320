@@ -1,8 +1,5 @@
-require 'pry'
-
 def greet_characters(array)
-  array.each { |array| p = "Hello #{array}!" }
-  binding.pry   
+  array.each { |array| puts "Hello #{array}" }  
 end
 
 
